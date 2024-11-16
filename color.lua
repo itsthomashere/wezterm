@@ -1,19 +1,13 @@
 -- cyberdream theme for wezterm
 return {
-	foreground = "#ffffff",
-	background = "#000001",
+	foreground = "#ebdbb2",
+	background = "#141312",
+	cursor_bg = "#ebdbb2",
+	cursor_border = "#ebdbb2",
+	cursor_fg = "#1b1b1b",
+	selection_bg = "#665c54",
+	selection_fg = "#ebdbb2",
 
-	cursor_bg = "#ffffff",
-	cursor_fg = "#16181a",
-	cursor_border = "#ffffff",
-
-	selection_fg = "#ffffff",
-	selection_bg = "#3c4048",
-
-	scrollbar_thumb = "#16181a",
-	split = "#16181a",
-
-	ansi = { "#16181a", "#ff6e5e", "#5eff6c", "#f1ff5e", "#5ea1ff", "#bd5eff", "#5ef1ff", "#ffffff" },
-	brights = { "#3c4048", "#ff6e5e", "#5eff6c", "#f1ff5e", "#5ea1ff", "#bd5eff", "#5ef1ff", "#ffffff" },
-	indexed = { [16] = "#ffbd5e", [17] = "#ff6e5e" },
+	ansi = { "#1b1b1b", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a", "#a89984" },
+	brights = { "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b", "#8ec07c", "#ebdbb2" },
 }
